@@ -1,0 +1,22 @@
+{
+  "name": "@smallhillcz/feedback-widget",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Click-to-comment feedback for any web app, stored as GitHub issues created by the reviewer's own account.",
+  "license": "UNLICENSED",
+  "main": "server.js",
+  "bin": {
+    "feedback-widget": "server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/*.test.js",
+    "test:unit": "node --test test/unit.test.js"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0"
+  }
+}
